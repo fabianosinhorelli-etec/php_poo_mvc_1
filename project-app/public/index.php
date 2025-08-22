@@ -15,7 +15,9 @@ require_once __DIR__ . '/../app/Controllers/UserController.php';
 $fullUri = $_SERVER['REQUEST_URI'];
 
 // Definir o path base da sua aplicação
-$basePath = '/aulas/repo-pw/pw3/POO/app-poo/project-app/public';
+// $basePath = '/aulas/repo-pw/pw3/POO/app-poo/project-app/public';
+// Novo caminho BASE
+$basePath = '/aulas/repo-pw3/php_poo_mvc_1/project-app/public';
 
 // Remover o path base da URI
 $uri = $fullUri;
